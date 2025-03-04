@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Love Page for My Boyfriend</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: lightcoral;
+      font-family: 'Dancing Script', cursive;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      overflow: hidden;
+    }
+    h1 {
+      color: white;
+      text-align: center;
+      font-size: 3em;
+      margin-top: 20px;
+    }
+    p {
+      color: white;
+      text-align: center;
+      font-size: 1.5em;
+      margin-top: 10px;
+    }
+    .photos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .photos img {
+      margin: 10px;
+      border: 2px solid white;
+      border-radius: 10px;
+      width: 150px;
+      height: auto;
+    }
+    .message {
+      color: white;
+      text-align: center;
+      font-size: 2em;
+      margin-top: 20px;
+      max-width: 800px;
+    }
+    .hearts {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      pointer-events: none;
+    }
+    .hearts span {
+      position: absolute;
+      display: block;
+      width: 20px;
+      height: 20px;
+      background: red;
+      opacity: 0.7;
+      transform: rotate(45deg);
+      animation: animate 10s linear infinite;
+    }
+    .hearts span:before,
+    .hearts span:after {
+      content: '';
+      position: absolute;
+      display: block;
+      width: 20px;
+      height: 20px;
+      background: red;
+      border-radius: 50%;
+    }
+    .hearts span:before {
+      top: -10px;
+      left: 0;
+    }
+    .hearts span:after {
+      left: 10px;
+      top: 0;
+    }
+    @keyframes animate {
+      0% {
+        transform: translateY(0) rotate(45deg);
+        opacity: 0.7;
+      }
+      100% {
+        transform: translateY(-1000px) rotate(45deg);
+        opacity: 0;
+      }
+    }
+    .sparkles {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      pointer-events: none;
+    }
+    .sparkles span {
+      position: absolute;
+      display: block;
+      width: 10px;
+      height: 10px;
+      background: white;
+      opacity: 0.8;
+      border-radius: 50%;
+      animation: sparkle 5s linear infinite;
+    }
+    @keyframes sparkle {
+      0% {
+        transform: scale(0) translateY(0);
+        opacity: 0;
+      }
+      50% {
+        transform: scale(1) translateY(-500px);
+        opacity: 1;
+      }
+      100% {
+        transform: scale(0) translateY(-1000px);
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Our Memories</h1>
+  <p>A special page for my boyfriend</p>
+  <div class="photos">
+    <img src="faad8327-530d-4925-963a-80252929c6c2.jpeg" alt="Photo 1">
+    <img src="f820f9fb-2c4f-49a0-b69d-c7c0c7c6d637.jpeg" alt="Photo 2">
+    <img src="db55ada2-df1c-441e-ba98-0b73e8d04b47.jpeg" alt="Photo 3">
+    <img src="576e38e7-14e0-4767-8eb5-860fc6f3c453.jpeg" alt="Photo 4">
+    <img src="6b04810e-e31c-4bdb-abb9-1795e726c8c5.jpeg" alt="Photo 5">
+    <img src="2d6f570c-21ec-40ec-a1e1-ac4b70b082eb.jpeg" alt="Photo 6">
+  </div>
+  <div class="message">
+    BEB, I love you so much! Thank you for making me the happiest girl in the world. You mean everything to me, and I am so grateful for all the wonderful moments we share together. You are my rock, my love, and my best friend. I can't wait to create more beautiful memories with you. BEMBANG KA SAKIN! 🤭
+  </div>
+  <div class="hearts">
+    <span style="left: 10%; animation-delay: 0s;"></span>
+    <span style="left: 20%; animation-delay: 1s;"></span>
+    <span style="left: 30%; animation-delay: 2s;"></span>
+    <span style="left: 40%; animation-delay: 3s;"></span>
+    <span style="left: 50%; animation-delay: 4s;"></span>
+    <span style="left: 60%; animation-delay: 5s;"></span>
+    <span style="left: 70%; animation-delay: 6s;"></span>
+    <span style="left: 80%; animation-delay: 7s;"></span>
+    <span style="left: 90%; animation-delay: 8s;"></span>
+    <span style="left: 15%; animation-delay: 1.5s;"></span>
+    <span style="left: 25%; animation-delay: 2.5s;"></span>
+    <span style="left: 35%; animation-delay: 3.5s;"></span>
+    <span style="left: 45%; animation-delay: 4.5s;"></span>
+    <span style="left: 55%; animation-delay: 5.5s;"></span>
+    <span style="left: 65%; animation-delay: 6.5s;"></span>
+    <span style="left: 75%; animation-delay: 7.5s;"></span>
+    <span style="left: 85%; animation-delay: 8.5s;"></span>
+  </div>
+  <div class="sparkles">
+    <span style="left: 10%; animation-delay: 0s;"></span>
+    <span style="left: 20%; animation-delay: 1s;"></span>
+    <span style="left: 30%; animation-delay: 2s;"></span>
+    <span style="left: 40%; animation-delay: 3s;"></span>
+    <span style="left: 50%; animation-delay: 4s;"></span>
+    <span style="left: 60%; animation-delay: 5s;"></span>
+    <span style="left: 70%; animation-delay: 6s;"></span>
+    <span style="left: 80%; animation-delay: 7s;"></span>
+    <span style="left: 90%; animation-delay: 8s;"></span>
+    <span style="left: 15%; animation-delay: 1.5s;"></span>
+    <span style="left: 25%; animation-delay: 2.5s;"></span>
+    <span style="left: 35%; animation-delay: 3.5s;"></span>
+    <span style="left: 45%; animation-delay: 4.5s;"></span>
+    <span style="left: 55%; animation-delay: 5.5s;"></span>
+    <span style="left: 65%; animation-delay: 6.5s;"></span>
+    <span style="left: 75%; animation-delay: 7.5s;"></span>
+    <span style="left: 85%; animation-delay: 8.5s;"></span>
+  </div>
+  <div class="background-music">
+    <audio autoplay loop>
+      <source src="https://www.bensound.com/bensound-music/bensound-love.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</body>
+</html>
